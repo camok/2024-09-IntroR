@@ -146,7 +146,7 @@ As mentioned above, at the end of each lecture there will be a completed version
 
 The following datasets used in this week's class come from a published manuscript on PLoS Pathogens entitled "High-throughput phenotyping of infection by diverse microsporidia species reveals a wild *C. elegans* strain with opposing resistance and susceptibility traits" by [Mok et al., 2023](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1011225). These datasets focus on the an analysis of infection in wild isolate strains of the nematode *C. elegans* by environmental pathogens known as microsporidia. The authors collected embryo counts from individual animals in the population after population-wide infection by microsporidia and we'll spend our next few classes working with the dataset to learn how to format and manipulate it.
 
-### 0.4.4.1 Dataset 1: /data/infection_metadata.csv
+### 0.4.4.1 Dataset 1: /data/infection_meta.csv
 
 This is a comma-separated version of the metadata data from our measurements. This dataset tracks information for each experimental condition measured including variables including experimental dates, reagent versions, and sample locations. We'll use this file to ease our way into importing, manipulating, and exporting in today's class.
 
