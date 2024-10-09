@@ -2077,11 +2077,11 @@ par(mfrow = c(2,2))
 
 From above, three of these graphs are the most important.
 
--   **Rule 3 (residual normality)**: The top right is a Q-Q plot of the residuals which looks like it follows a normal distribution
+-   **Rule 2 (residual normality)**: The top right is a Q-Q plot of the residuals which looks like it follows a normal distribution
 
--   **Rule 4 (homoscedasticity)**: The top left displays our residuals vs fitted (model) values. The lack of any discernible pattern suggests that there is homogeneity of variance in our residuals.
+-   **Rule 3 (homoscedasticity)**: The top left displays our residuals vs fitted (model) values. The lack of any discernible pattern suggests that there is homogeneity of variance in our residuals.
 
--   **Rule 5 (outliers)**: Finally the bottom right plot of **Residuals vs. Leverage** helps to identify if any particular datapoints have a strong influence on the model. If any points fall outside the dotted line (Cook's distance) their removal from the dataset would strongly influence the coefficients of the model. [These *could* be considered outliers or might suggest you need a different model!](https://www.statology.org/residuals-vs-leverage-plot/)
+-   **Rule 5 (outliers)**: This is a soft rule that went unmentioned in **Section 2.0.0**. Finally the bottom right plot of **Residuals vs. Leverage** helps to identify if any particular datapoints have a strong influence on the model. If any points fall outside the dotted line (Cook's distance) their removal from the dataset would strongly influence the coefficients of the model. [These *could* be considered outliers or might suggest you need a different model!](https://www.statology.org/residuals-vs-leverage-plot/)
 
 Let's build a model of `chol` based on non-interactive variables `age` and `sex` using the `lm()` function.
 
